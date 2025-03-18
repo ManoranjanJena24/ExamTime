@@ -24,5 +24,24 @@ HTML is our root element
 ->because it increases code readdibility 
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+bgc short form of backgroundcolor 
+
+Selector 
+
+1) Tag Selector  eg: h1
+
+2) Class Selector 
+
+3) Id Selctor
+
+class  can be multiple but id will be unique 
+
+4) psedo class (: is the psedo)
+ul li:nth-child(4){
+    background-color: red;
+}
+
+
 
 
