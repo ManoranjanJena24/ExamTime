@@ -1,0 +1,27 @@
+
+/* in this we have talked about  FONT TEXT and BORDER PROPERTIES */
+h1{
+    background-color: yellow;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+     text-align: center;
+     /* text-decoration: overline;     */
+     /* text-decoration: underline red dashed;     */
+     /* text-decoration: underline red wavy;     */
+     /* text-decoration: underline  overline red dashed ; */
+
+    /* Apply underline and overline separately */
+    text-decoration-line: underline overline;
+    text-decoration-style: dotted dashed; /* First is for underline, second is for overline */
+    text-decoration-color: red;
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+    text-shadow:4px 4px 2px black;
+
+}
+
+.name:hover{
+    background-color: green;
+}
