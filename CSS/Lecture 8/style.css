@@ -1,28 +1,28 @@
-
 /* in this we have talked about  FONT TEXT and BORDER PROPERTIES */
-h1{
+h1 {
     background-color: yellow;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-     text-align: center;
-     /* text-decoration: overline;     */
-     /* text-decoration: underline red dashed;     */
-     /* text-decoration: underline red wavy;     */
-     /* text-decoration: underline  overline red dashed ; */
+    text-align: center;
+    /* text-decoration: overline;     */
+    /* text-decoration: underline red dashed;     */
+    /* text-decoration: underline red wavy;     */
+    /* text-decoration: underline  overline red dashed ; */
 
     /* Apply underline and overline separately */
     text-decoration-line: underline overline;
-    text-decoration-style: dotted dashed; /* First is for underline, second is for overline */
+    text-decoration-style: dotted dashed;
+    /* First is for underline, second is for overline */
     text-decoration-color: red;
     /* text-transform: capitalize; */
-    /* text-transform: lowercase; */ 
+    /* text-transform: lowercase; */
     text-transform: uppercase;
-    text-shadow:4px 4px 2px purple;
+    text-shadow: 4px 4px 2px purple;
 
 }
 
-.name:hover{
+.name:hover {
     background-color: green;
     text-shadow: none;
     text-transform: uppercase;
@@ -35,3 +35,19 @@ h1{
     color: white;
 
 }
+
+
+
+
+/* In Border we need 3 things  1st size of border(1px)   2nd border line (which can be solid ) 3rd color (black) */
+
+.wrapper {
+    background-color: orange;
+    border: 1px solid black;
+    /* border: 1px solid red; */
+    border-color: red;
+    /* border-radius: 20px; */
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
