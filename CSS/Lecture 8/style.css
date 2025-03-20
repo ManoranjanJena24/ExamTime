@@ -16,12 +16,22 @@ h1{
     text-decoration-style: dotted dashed; /* First is for underline, second is for overline */
     text-decoration-color: red;
     /* text-transform: capitalize; */
-    /* text-transform: lowercase; */
+    /* text-transform: lowercase; */ 
     text-transform: uppercase;
-    text-shadow:4px 4px 2px black;
+    text-shadow:4px 4px 2px purple;
 
 }
 
 .name:hover{
     background-color: green;
+    text-shadow: none;
+    text-transform: uppercase;
+    text-decoration: underline white;
+}
+
+.dummyText:hover {
+
+    background-color: black;
+    color: white;
+
 }
