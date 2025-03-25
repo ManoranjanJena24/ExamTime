@@ -92,4 +92,32 @@ rgb(255,255,255) ----------> white
 ## important in the above one please check difference in the part of background attachement for scroll  and fixed one 
 
 
+## important thing put background on top before because it matters
+body{
+    /* background: linear-gradient(red,yellow); */
+    background: linear-gradient(red,yellow,green,blue,white,orange,pink,grey);
+    background-size: cover;
+    background-repeat:no-repeat ;
+
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+}
+
+
+## The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse
+## like ellipse
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                Background :conic gradient 
+
+ background: conic-gradient(red,yellow,green,blue,white,orange,pink,grey);
+
+
+ ## in real time we will be using application  gradient generator to find the color
+
+
+
+
+
  

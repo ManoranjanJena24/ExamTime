@@ -1,10 +1,11 @@
-#container{
+#container {
     border: 1px solid black;
     width: 900px;
     height: 800px;
 
 }
-p{
+
+p {
     /* color: green; */
     /* color:rgba(0, 0, 0, 0) */
 
@@ -15,11 +16,16 @@ p{
 }
 
 
-body{
+body {
     /* background: linear-gradient(red,yellow); */
-    background: linear-gradient(red,yellow,green,blue,white,orange,pink,grey);
-    background-repeat:no-repeat ;
+    /* background: linear-gradient(red,yellow,green,blue,white,orange,pink,grey); */
+    /* background: radial-gradient(red,yellow,green,blue,white,orange,pink,grey); */
+    /* background: conic-gradient(red,yellow,green,blue,white,orange,pink,grey); */
+    /* background: rgb(108,104,176); */
+    background: linear-gradient(90deg, rgba(108, 104, 176, 1) 13%, rgba(9, 9, 121, 1) 45%, rgba(0, 255, 133, 0.7814775568430498) 83%);
     background-size: cover;
+    background-repeat: no-repeat;
+
     /* background-attachment: fixed; */
     background-attachment: scroll;
 }
