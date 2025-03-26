@@ -34,4 +34,6 @@ padding-top:30px;
 ## important point margin in inline block only applicable on left and right not on top and bottom
 
 
-##box-sizing:borderbox
+## box-sizing:borderbox
+
+
