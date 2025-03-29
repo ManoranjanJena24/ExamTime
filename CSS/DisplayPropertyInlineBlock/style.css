@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: steelblue;
+    color: white;
+    font-size: 20px;
+    line-height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
