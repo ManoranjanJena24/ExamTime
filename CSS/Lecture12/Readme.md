@@ -13,3 +13,8 @@ Relative:%,vw,vh,em,rem -->
 display:inline-block
 display:inline
 display:block
+
+
+
+Relative means it relate to your parent
+
