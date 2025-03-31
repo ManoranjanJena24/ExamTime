@@ -1,0 +1,41 @@
+/* Apply box-sizing globally */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base font size for the document */
+html {
+    font-size: 16px; /* Default browser font size */
+}
+
+/* Parent element using vw & vh */
+.parent {
+    width: 80vw;   /* 80% of viewport width */
+    height: 50vh;  /* 50% of viewport height */
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid blue; /* Using rem for consistent border width */
+}
+
+/* Child element using % relative to parent */
+.child {
+    width: 50%;  /* 50% of parent's width */
+    height: 50%; /* 50% of parent's height */
+    background-color: coral;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;  /* 1.5 times the parent’s font-size */
+    padding: 1em;      /* Padding based on the element’s font size */
+    border: 0.2rem solid darkred;
+}
+
+/* Paragraph inside child using rem */
+.child p {
+    font-size: 1.2rem; /* 1.2 times the root (html) font size */
+}
