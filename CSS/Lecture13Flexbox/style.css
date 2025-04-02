@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: violet;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+}
